@@ -36,15 +36,16 @@ def generate():
                     - Razão: {reason}
                     - Detalhes adicionais: {details}
 
-                    Por favor, gere uma desculpa absurda, mas divertida, que combine essas informações. Use um tom leve e engraçado. Seja criativo e exagere o suficiente para surpreender!"""
+                    Por favor, gere uma desculpa absurda, mas divertida, que combine essas informações. Use um tom leve e engraçado. Seja criativo e exagere o suficiente para surpreender! Tente se ater a 100 no máximo 200 carcteres, só escreva a desculpa"""
 
         completion = client.chat.completions.create(
             model='gpt-4o',
             messages=[
                 {"role": "user", "content": prompt},
             ],
-            max_tokens=100,
-            temperature=0.9,
+            max_completion_tokens=200,
+            stop=['/n', 'FIM'],
+            temperature=0.5,
 
         )
         print(completion.choices[0].message.content)
