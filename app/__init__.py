@@ -1,5 +1,4 @@
 from flask import Flask
-from config import OPEN_AI_KEY
 from .routes import main
 from .services.db import init_mongo
 
@@ -8,6 +7,7 @@ def create_app():
     app.config.from_object('config.Config')
     # app.config['OPEN_AI_KEY']  = OPEN_AI_KEY
     init_mongo(app)
+    
     app.register_blueprint(main)
 
     return app
