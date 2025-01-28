@@ -2,3 +2,4 @@ flask
 openai
 Flask_PyMongo
 python-dotenv
+gunicorn
