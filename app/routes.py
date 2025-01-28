@@ -23,7 +23,7 @@ def homepage():
     
 
 
-@main.route("/generate", methods = ["POST"])
+@main.route("/generate", methods = ["GET","POST"])
 def generate():
     
     if request.method == "POST":
