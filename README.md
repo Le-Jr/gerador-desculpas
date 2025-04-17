@@ -19,7 +19,7 @@ Um aplicativo web feito com Flask que gera desculpas criativas de forma automát
 Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/gerador-desculpas.git
+git clone https://github.com/Le-Jr/gerador-desculpas.git
 cd gerador-desculpas
 ```
 
