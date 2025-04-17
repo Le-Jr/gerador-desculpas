@@ -70,4 +70,4 @@ Formulário básico e geração de desculpas
 ## 🤝 Agradecimentos
 
 Projeto desenvolvido como parte do estudo de Flask e MVPs com foco em produto digital.
-Inspiração: todas as vezes em que realmente precisávamos de uma boa desculpa.
+Em serviço do humor — e de todas as situações em que só uma boa desculpa poderia salvar o dia.
