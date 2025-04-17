@@ -36,6 +36,7 @@ flask run
 ```
 
 ## 📦 Estrutura do Projeto
+```
 gerador-desculpas/
 ├── app/
     ├── services/
@@ -51,10 +52,11 @@ gerador-desculpas/
 ├── Procfile
 ├── requirements.txt
 └── README.md
+```
 
 ## 🔮 MVP e Roadmap
 ### ✅ Versão Atual
-    Formulário básico e geração de desculpas
+Formulário básico e geração de desculpas
 
 ## 🛣️ Planejamento Futuro
 - Cadastro de usuários
